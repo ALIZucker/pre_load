@@ -544,24 +544,106 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.ml-\[1vw\] {
+  margin-left: 1vw;
+}
+
 .ml-\[31vw\] {
   margin-left: 31vw;
+}
+
+.mt-\[1vh\] {
+  margin-top: 1vh;
 }
 
 .mt-\[35vh\] {
   margin-top: 35vh;
 }
 
+.box-border {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
 .h-\[30vh\] {
   height: 30vh;
+}
+
+.h-\[35vh\] {
+  height: 35vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[25vh\] {
+  height: 25vh;
+}
+
+.h-\[29vh\] {
+  height: 29vh;
+}
+
+.w-\[30vw\] {
+  width: 30vw;
 }
 
 .w-\[35vw\] {
   width: 35vw;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .rounded-\[50\%\] {
   border-radius: 50%;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-neutral-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(115 115 115 / var(--tw-border-opacity));
+}
+
+.px-\[2vw\] {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.text-\[1\.5vw\] {
+  font-size: 1.5vw;
+}
+
+.text-\[1vw\] {
+  font-size: 1vw;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .box-preload {
@@ -572,15 +654,32 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.hid{
-  opacity: 0;
-  transition:  opacity 2s ease-in-out;
+.hid2{
+  display: none;
 }
 
-#post-box{
+.hid {
+  opacity: 0;
+  transition: opacity 4s ease-in-out;
+}
+
+#post-box {
   display: flex;
+  width: 100%;
   flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+@media (min-width: 1024px) {
+  #post-box {
+    flex-direction: row;
+  }
+}
+
+.hover\:border-neutral-200:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -588,8 +687,20 @@ video {
     margin-left: 42vw;
   }
 
+  .lg\:ml-\[1vw\] {
+    margin-left: 1vw;
+  }
+
+  .lg\:h-\[35vh\] {
+    height: 35vh;
+  }
+
   .lg\:w-\[15vw\] {
     width: 15vw;
+  }
+
+  .lg\:w-\[30vw\] {
+    width: 30vw;
   }
 }
 
