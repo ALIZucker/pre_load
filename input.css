@@ -3,16 +3,18 @@
 @tailwind utilities;
 
 
-.box-preload{
+.box-preload {
     @apply w-full h-full absolute bg-gray-200;
 }
-.hid{
-    opacity: 0;
-    transition:  opacity 2s ease-in-out;
+.hid2{
+ display: none;
 }
-#post-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hid {
+    opacity: 0;
+    transition: opacity 4s ease-in-out;
+}
+
+#post-box {
+    @apply flex lg:flex-row flex-col justify-start w-full flex-wrap;
 }
 
