@@ -1,4 +1,4 @@
-export class Post {
+export default class Post {
     constructor(imgAdd,titlePost,desc) {
         this.srcImg=imgAdd;
         this.Title=titlePost;
