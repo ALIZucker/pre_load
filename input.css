@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.box-preload{
+    @apply w-full h-full absolute bg-gray-200;
+}
+.hid{
+    opacity: 0;
+    transition:  opacity 2s ease-in-out;
+}
+#post-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
