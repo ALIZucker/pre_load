@@ -543,3 +543,53 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.ml-\[31vw\] {
+  margin-left: 31vw;
+}
+
+.mt-\[35vh\] {
+  margin-top: 35vh;
+}
+
+.h-\[30vh\] {
+  height: 30vh;
+}
+
+.w-\[35vw\] {
+  width: 35vw;
+}
+
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
+.box-preload {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.hid{
+  opacity: 0;
+  transition:  opacity 2s ease-in-out;
+}
+
+#post-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .lg\:ml-\[42vw\] {
+    margin-left: 42vw;
+  }
+
+  .lg\:w-\[15vw\] {
+    width: 15vw;
+  }
+}
+
